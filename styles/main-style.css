@@ -116,6 +116,37 @@ header {
 
 .burger-menu {
   width: 40px;
+ /*  z-index: 10; /* i added both of these lines here
+  position: absolute; */
+}
+
+.burger-menu-toggled {
+  z-index: 10; 
+  position: absolute; 
+}
+
+.toggled-menu {
+  background: var(--orange);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 20px;
+  top: 0;
+  left: 0;
+  z-index: 0;
+} 
+ 
+no-scroll {
+  overflow: hidden;
+}
+
+.list-item{
+  color: white;
+  font-weight: 600;
 }
 
 .headline-title {
@@ -247,6 +278,7 @@ footer > * {
 
   .list-item {
     font-weight: 600;
+    color: var(--black);
   }
 
   .campaign-btn {
