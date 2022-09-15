@@ -1,0 +1,262 @@
+:root {
+  --orange: #ec5242;
+  --black: #272a31;
+  --grey: #d3d3d3;
+
+  --fs-200: 14px;
+  --fs-300: 16px;
+  --fs-400: 18px;
+  --fs-500: 20px;
+  --fs-600: 24px;
+  --fs-700: 30px;
+  --fs-800: 36px;
+
+  --ff-cocogoose: "COCOGOOSE", sans-serif;
+  --ff-lato: "Lato", sans-serif;
+  --ff-zilla-slab: "Zilla Slab", serif;
+  --ff-ubuntu: "Ubuntu", sans-serif;
+  --ff-gideon: "Gideon Roman", cursive;
+
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: var(--black);
+  font-family: var(--ff-lato);
+  /*border: 1px solid blueviolet;*/
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: var(--fs-700);
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: var(--fs-600);
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: var(--fs-500);
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: var(--fs-400);
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+time {
+  font-family: var(--ff-cocogoose);
+}
+
+section,
+footer {
+  padding: 30px 30px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+header {
+  padding: 20px 20px 0 20px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.line-break {
+  border: 1px solid var(--orange);
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: var(--orange);
+  padding: 20px;
+  margin-top: 20px;
+  font-size: var(--fs-500);
+  color: white;
+}
+
+.socials-controls,
+.logo,
+.nav-list,
+.campaign-btn {
+  display: none;
+}
+
+.burger-menu {
+  width: 40px;
+}
+
+.headline-title {
+  font-family: var(--ff-cocogoose);
+  color: var(--orange);
+}
+
+.headline-welcome {
+  font-size: var(--fs-500);
+  color: var(--orange);
+}
+
+.partner-section {
+  background-color: var(--black);
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.partner-section > h2 {
+  color: white;
+}
+
+.partners {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.partners > span {
+  color: var(--grey);
+  font-size: var(--fs-500);
+  padding: 5px;
+  flex: 1;
+}
+
+.partners > span > i {
+  color: var(--grey);
+}
+.no-starch {
+  font-family: var(--ff-ubuntu);
+  font-weight: 500;
+}
+
+.penguin {
+  font-family: var(--ff-zilla-slab);
+}
+.harper-collins {
+  font-family: var(--ff-gideon);
+}
+
+footer {
+  background-color: white;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+footer > * {
+  flex: 1;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: none;
+  }
+
+  h1 {
+    font-size: var(--fs-800);
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  header {
+    padding: 0;
+    background-color: white;
+    border-bottom: 1px solid grey;
+  }
+
+  section,
+  footer {
+    padding: 50px 120px 50px 120px;
+  }
+
+  header > nav {
+    padding: 12px 120px 12px 120px;
+  }
+
+  .socials-controls {
+    padding: 0 120px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    background-color: var(--black);
+    font-size: var(--fs-200);
+  }
+
+  .socials-controls a {
+    color: white;
+  }
+  .socials-controls img {
+    width: 24px;
+  }
+
+  .logo {
+    display: block;
+    min-width: 150px;
+    max-width: 150px;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .list-item {
+    font-weight: 600;
+  }
+
+  .campaign-btn {
+    display: block;
+    color: var(--orange);
+    border: 4px solid var(--orange);
+    padding: 10px;
+  }
+
+  footer > img {
+    width: 150px;
+  }
+}
