@@ -1,0 +1,94 @@
+body {
+  background-image: url("../images/about-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 5%;
+  background-color: rgb(245, 245, 245);
+}
+
+
+.about-headline-section {
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.about-headline-section,
+.logo-contest-section,
+.past-events-section,
+.past-events,
+.partner-section {
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.about-headline-section address {
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.about-description {
+  padding: 10px;
+  background-color: white;
+  line-height: 1.5rem;
+}
+
+.logo-contest-section {
+  background-color: white;
+  border-bottom: 1px solid var(--grey);
+}
+
+.past-events-section {
+  background-color: white;
+}
+
+.past-event {
+  padding: 50px 20px 50px 20px;
+  background-image: url("../images/bookfair1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.past-event>* {
+  color: white;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  body{
+    background-image: none;
+  }
+  .about-headline-section {
+    background-image: url("../images/about-bg.png");
+    background-size: contain;
+  }
+
+  .logo-contest-section>img {
+    width: fit-content;
+  }
+
+  .past-events {
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .partner-section {
+    display: none;
+  }
+
+  footer {
+    background-color: var(--black);
+  }
+
+  footer>* {
+    color: white;
+  }
+
+}
