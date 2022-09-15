@@ -9,30 +9,49 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/08fd6ffb87aac63ca5d4a4da848f4b86?family=Wolpe+Pegasus" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="styles/main-style.css">
+    <link rel="stylesheet" href="styles/home-page-style.css" />
     <script src="main.js"></script>
     <title>The Night Owl Book Fair</title>
   </head>
 
   <body>
     <header>
+      <ul class="socials-controls">
+        <li>
+          <a href=""><img src="images/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/twitter.png" alt="" /></a>
+        </li>
+        <li><a href="">English</a></li>
+        <li><a href="">My page</a></li>
+        <li><a href="">Log out</a></li>
+      </ul>
       <nav>
         <a class="logo" href="index.html"
-          ><img src="images/logo.png" alt="logo"
+          ><img src="images/logo-black-bg.png" alt="logo"
         /></a>
         <button class="burger-menu">
           <img src="images/burger-menu-icon.png" alt="" />
         </button>
-        <ul class="nav-list">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Sponsor</a></li>
-          <li><a href="#">News</a></li>
+        <ul class="nav-list flex-container">
+          <li><a class="list-item" href="about.html">About</a></li>
+          <li><a class="list-item" href="#">Program</a></li>
+          <li><a class="list-item" href="#">Join</a></li>
+          <li><a class="list-item" href="#">Sponsor</a></li>
+          <li><a class="list-item" href="#">News</a></li>
+          <li><a class="list-item campaign-btn" href="">TNO Campaign</a></li>
         </ul>
-        <button class="campaign-btn" type="button">CC Campaign</button>
       </nav>
     </header>
 
@@ -62,104 +81,128 @@ Book Fair
       </div>
     </section>
 
-    <section id="program" class="flex-container program-section">
+    <section id="program" class="program-section flex-container">
       <h2>Main Program</h2>
       <div class="line-break"></div>
-      <div class="flex-container activity">
-        <img class="activity-img" src="images/stage.png" alt="" />
-        <h3 class="activity-title">Exhibition</h3>
-        <p class="activity-description">
-          Pick up your next reads from a display of hundreds of thousands of
-          books from different authors from all over the world.
-        </p>
+      <div class="activities flex-container">
+        <div class="flex-container activity">
+          <img class="activity-img" src="images/stage.png" alt="" />
+          <h3 class="activity-title">Exhibition</h3>
+          <p class="activity-description">
+            Pick up your next reads from a display of hundreds of thousands of
+            books from different authors from all over the world.
+          </p>
+        </div>
+        <div class="flex-container activity">
+          <img class="activity-img" src="images/lecture.png" alt="" />
+          <h3 class="activity-title">Lecture</h3>
+          <p class="activity-description">
+            Listen to your favourite authors talk about their craft and their
+            experiences as writers.
+          </p>
+        </div>
+        <div class="flex-container activity">
+          <img class="activity-img" src="images/forum.png" alt="" />
+          <h3 class="activity-title">Q&A</h3>
+          <p class="activity-description">
+            Ask your favourite authors questions you've been dying to have
+            answered
+          </p>
+        </div>
+        <div class="flex-container activity">
+          <img class="activity-img" src="images/ignite.png" alt="" />
+          <h3 class="activity-title">Book signing</h3>
+          <p class="activity-description">
+            Have your favourite book signed by your favourte author after
+            hearing their answers to your questions.
+          </p>
+        </div>
+        <div class="flex-container activity">
+          <img class="activity-img" src="images/workshop.png" alt="" />
+          <h3 class="activity-title">Workshop</h3>
+          <p class="activity-description">
+            Join our creative writing workshop to learn the basics and ins and
+            outs of writing.
+          </p>
+        </div>
       </div>
-      <div class="flex-container activity">
-        <img class="activity-img" src="images/lecture.png" alt="" />
-        <h3 class="activity-title">Lecture</h3>
-        <p class="activity-description">
-          Listen to your favourite authors talk about their craft and their
-          experiences as writers.
-        </p>
-      </div>
-      <div class="flex-container activity">
-        <img class="activity-img" src="images/forum.png" alt="" />
-        <h3 class="activity-title">Q&A</h3>
-        <p class="activity-description">
-          Ask your favourite authors questions you've been dying to have
-          answered
-        </p>
-      </div>
-      <div class="flex-container activity">
-        <img class="activity-img" src="images/ignite.png" alt="" />
-        <h3 class="activity-title">Book signing</h3>
-        <p class="activity-description">
-          Have your favourite book signed by your favourte author after hearing
-          their answers to your questions.
-        </p>
-      </div>
-      <div class="flex-container activity">
-        <img class="activity-img" src="images/workshop.png" alt="" />
-        <h3 class="activity-title">Workshop</h3>
-        <p class="activity-description">
-          Join our creative writing workshop to learn the basics and ins and
-          outs of writing.
-        </p>
-      </div>
-
       <button class="btn-primary">Join the Night Owl book fair 2022</button>
       <a href="#" class="see-program">SEE THE WHOLE PROGRAM</a>
     </section>
 
-    <section
-      id="featured-authors"
-      class="authors-section flex-container">
+    <section id="featured-authors" class="authors-section flex-container">
       <h2>Featured Speakers</h2>
       <div class="line-break"></div>
-      <div class="flex-container author">
-        <div class="author-photo-container">
-          <img
-            class="author-photo"
-            src="images/Thomas-Harris.jpg"
-            alt="A photo of Thomas Harris"
-          />
+      <div class="flex-container authors">
+        <div class="flex-container author">
+          <div class="author-photo-container">
+            <img
+              class="author-photo"
+              src="images/Thomas-Harris.jpg"
+              alt="A photo of Thomas Harris"
+            />
+          </div>
+          <div class="flex-container author-description">
+            <h3>Thomas Harris</h3>
+            <p class="genre">Crime, Horror, Suspense</p>
+            <div class="line-break"></div>
+            <p>
+              He is an American author best known for a series of suspense
+              novels about his most famous character, Hannibal Lecter. The
+              majority of his works have been adapted into films and television,
+              the most notable being The Silence of the Lambs.
+            </p>
+          </div>
         </div>
-        <div class="flex-container author-description">
-          <h3>Thomas Harris</h3>
-          <p class="genre">Crime, Horror, Suspense</p>
-          <div class="line-break"></div>
-          <p>
-            He is an American author best known for a series of suspense novels
-            about his most famous character, Hannibal Lecter. The majority of
-            his works have been adapted into films and television, the most
-            notable being The Silence of the Lambs.
-          </p>
+        <div class="flex-container author">
+          <div class="author-photo-container">
+            <img
+              class="author-photo"
+              src="images/Stephen-King.jpg"
+              alt="A photo of Stephen King"
+            />
+          </div>
+          <div class="flex-container author-description">
+            <h3>Stephen King</h3>
+            <p class="genre">
+              Horror, Supernatural fiction, Suspense, Crime, Science-fiction,
+              Fantasy
+            </p>
+            <div class="line-break"></div>
+            <p>
+              Described as the King of Horror, he is an American author with 64
+              published novels which most of them were adapted into films and
+              series and over 200 short stories.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="flex-container author">
-        <div class="author-photo-container">
-          <img
-            class="author-photo"
-            src="images/Stephen-King.jpg"
-            alt="A photo of Stephen King"
-          />
-        </div>
-        <div class="flex-container author-description">
-          <h3>Stephen King</h3>
-          <p class="genre">
-            Horror, Supernatural fiction, Suspense, Crime, Science-fiction,
-            Fantasy
-          </p>
-          <div class="line-break"></div>
-          <p>
-            Described as the King of Horror, he is an American author with 64
-            published novels which most of them were adapted into films and
-            series and over 200 short stories.
-          </p>
-        </div>
+        
+      
+       
+        
       </div>
 
-      <button class="flex-container see-more"><span>MORE</span> <img src="images/down-arrow-orange.svg" alt=""></button>
+      <button class="flex-container see-more">
+        <span>MORE</span> <img src="images/down-arrow-orange.svg" alt="" />
+      </button>
     </section>
+
+    <section class="flex-container partner-section">
+      <h2>Partner</h2>
+      <div class="line-break"></div>
+      <div class="flex-container partners">
+        <span class="no-starch">no starch press</span>
+        <span class="penguin">Penguin Publishing </span>
+        <span class="harper-collins">HarperCollins<i>Publishing</i></span>
+      </div>
+    </section>
+
+    <footer class="flex-container">
+      <div>
+        <img src="images/logo-white-bg.png" alt="Logo" />
+      </div>
+      <p>2022 The Night Owl Book Fair London. Some Rights Reserved.</p>
+    </footer>
   </body>
 </html>
 

@@ -1,0 +1,191 @@
+body {
+  background-image: url("../images/main-mobile_bg.png");
+  background-size: 100% 90vh;
+  background-repeat: no-repeat;
+}
+
+.description {
+  padding: 10px;
+  font-size: var(--fs-500);
+  box-shadow: 0 0 0 3px white;
+  background-color: rgba(245, 245, 245);
+  line-height: 1.5rem;
+}
+
+.program-section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity {
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(211, 211, 211, 0.1);
+}
+
+.activity-img {
+  width: 60px;
+  height: 60px;
+}
+
+.activity-title {
+  color: var(--orange);
+  flex: 1;
+}
+
+.activity-description {
+  flex: 2;
+  margin-bottom: 0;
+}
+
+.see-program {
+  color: var(--grey);
+  display: none;
+}
+
+/*styling the authors section */
+.authors-section,
+.activities {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.program-section {
+  background-image: url("../images/main-bg.png");
+  background-repeat: repeat;
+  background-color: var(--black);
+  justify-content: center;
+}
+
+.authors-section {
+  background-color: white;
+}
+
+.program-section p,
+.program-section h2 {
+  color: var(--grey);
+}
+
+.authors {
+  flex-direction: column;
+}
+
+.author {
+  gap: 20px;
+}
+
+.author-photo-container {
+  flex: 1;
+}
+
+.author-photo {
+  width: 100%;
+  padding-top: 10%;
+  padding-left: 10%;
+  background-image: url("../images/chess-grey.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+.author-description {
+  flex: 2;
+  flex-direction: column;
+}
+
+.genre {
+  font-style: italic;
+  color: var(--orange);
+  font-weight: 500;
+}
+.line-break {
+  border: 1px solid var(--orange);
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+.see-more {
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: white;
+  border: 1px solid var(--grey);
+  border-radius: 4px;
+  padding: 10px;
+  margin: 30px 0 0 0;
+  width: 100%;
+}
+
+.see-more > img {
+  width: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  body{
+    background-image: none;
+  }
+
+  header {
+    padding: 0;
+    border-bottom: 1px solid grey;
+  }
+
+  .headline-section {
+    background-image: url("../images/home-bg-desktop.png");
+    background-size: contain;
+  }
+
+  .program-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .activities {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-items: stretch;
+  }
+
+  .activity {
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .activity-title {
+    flex: 0;
+  }
+
+  .btn-primary {
+    display: none;
+  }
+
+  .see-program {
+    display: block;
+    margin-top: 50px;
+    text-decoration: underline;
+  }
+
+  .authors {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .author {
+    width: 48%;
+  }
+
+  .see-more {
+    display: none;
+  }
+
+  footer {
+    background-color: rgb(245, 245, 245);
+  }
+}
