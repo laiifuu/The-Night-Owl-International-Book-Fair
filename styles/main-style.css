@@ -2,7 +2,6 @@
   --orange: #ec5242;
   --black: #272a31;
   --grey: #d3d3d3;
-
   --fs-200: 14px;
   --fs-300: 16px;
   --fs-400: 18px;
@@ -10,7 +9,6 @@
   --fs-600: 24px;
   --fs-700: 30px;
   --fs-800: 36px;
-
   --ff-cocogoose: "COCOGOOSE", sans-serif;
   --ff-lato: "Lato", sans-serif;
   --ff-zilla-slab: "Zilla Slab", serif;
@@ -28,7 +26,8 @@
   margin: 0;
   color: var(--black);
   font-family: var(--ff-lato);
-  /*border: 1px solid blueviolet;*/
+
+  /* border: 1px solid blueviolet; */
 }
 
 a {
@@ -124,8 +123,8 @@ header {
 }
 
 .burger-menu-toggled {
-  z-index: 10; 
-  position: absolute; 
+  z-index: 10;
+  position: absolute;
 }
 
 .toggled-menu {
@@ -141,7 +140,7 @@ header {
   top: 0;
   left: 0;
   z-index: 0;
-} 
+}
 
 .line {
   width: 40px;
@@ -151,11 +150,11 @@ header {
 }
 
 .line1 {
-  transform: translateY(-6px) ;
+  transform: translateY(-6px);
 }
 
 .line3 {
-  transform: translateY(6px) ;
+  transform: translateY(6px);
 }
 
 .open .line1 {
@@ -174,7 +173,7 @@ header {
   overflow: hidden;
 }
 
-.list-item{
+.list-item {
   color: white;
   font-weight: 600;
 }
@@ -219,6 +218,7 @@ header {
 .partners > span > i {
   color: var(--grey);
 }
+
 .no-starch {
   font-family: var(--ff-ubuntu);
 }
@@ -226,6 +226,7 @@ header {
 .penguin {
   font-family: var(--ff-zilla-slab);
 }
+
 .harper-collins {
   font-family: var(--ff-gideon);
 }
@@ -285,11 +286,17 @@ footer > * {
   .socials-controls a {
     color: white;
   }
+
+  footer > img {
+    width: 150px;
+  }
+
   .socials-controls img {
     width: 24px;
   }
 
-  .social-media, .control>a {
+  .social-media,
+  .control > a {
     transition: 0.2s ease-in-out;
   }
 
@@ -297,8 +304,8 @@ footer > * {
     background-color: var(--orange);
   }
 
-  .control>a:hover{
-    color:var(--orange);
+  .control > a:hover {
+    color: var(--orange);
   }
 
   .logo {
@@ -324,8 +331,8 @@ footer > * {
     transition: 0.2s ease-in-out;
   }
 
-  .list-item:hover{
-    color:var(--orange);
+  .list-item:hover {
+    color: var(--orange);
   }
 
   .campaign-btn {
@@ -339,9 +346,5 @@ footer > * {
   .campaign-btn:hover {
     color: white;
     background-color: var(--orange);
-  }
-
-  footer > img {
-    width: 150px;
   }
 }
