@@ -16,7 +16,7 @@ let authorsList = [
       name: "Elif Shafak",
       photoUrl: "./images/Elif-Shafak.jpg",
       genre: ["Literary fiction"],
-      description: "She is a turkish-british author who writes in both english and turkish. Described by the Financial Times as 'Turkey's leading female novelist', she has 19",
+      description: "She is a turkish-british author who writes in both English and Turkish. Described by the Financial Times as 'Turkey's leading female novelist', she has 19 published works, including 'The 40 rules of Love' and 'Three daughters of Eve'",
     },
     {
       name: "Haruki Murakami",
@@ -28,7 +28,7 @@ let authorsList = [
       name: "Colleen Hoover",
       photoUrl: "./images/Colleen-Hoover.jpg",
       genre: ["Young adult fiction", "New-adult fiction", "Romance", "Thriller"],
-      description: "She is an American author best known for her 2016 romance novel It Ends with Us. Many of her novels ended up being a New York times best seller. Many of her works were self-published before being picked up by a publishing house.",
+      description: "She is an American author best known for her 2016 romance novel 'It Ends with Us'. Many of her novels ended up being a New York times best seller. Many of her works were self-published before being picked up by a publishing house.",
     },
     {
       name: "Salley Rooney",
