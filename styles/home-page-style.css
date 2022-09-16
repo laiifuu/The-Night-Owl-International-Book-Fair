@@ -6,7 +6,6 @@ body {
 
 .description {
   padding: 10px;
-  font-size: var(--fs-500);
   box-shadow: 0 0 0 3px white;
   background-color: rgba(245, 245, 245);
   line-height: 1.5rem;
@@ -75,6 +74,7 @@ body {
 }
 
 .author {
+  margin-top: 40px;
   gap: 20px;
 }
 
@@ -138,6 +138,13 @@ body {
     background-size: contain;
   }
 
+  .headline-section > .description {
+    width: 70%;
+  }
+
+  .place {
+    font-size: var(--fs-500);
+  }
   .program-section {
     flex-direction: column;
     align-items: center;

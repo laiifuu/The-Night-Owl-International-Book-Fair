@@ -46,7 +46,7 @@ h2 {
 }
 
 h3 {
-  font-size: var(--fs-500);
+  font-size: var(--fs-300);
   margin-bottom: 5px;
 }
 
@@ -97,6 +97,10 @@ header {
   border: 1px solid var(--orange);
   width: 30px;
   margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
 }
 
 .btn-primary {
@@ -180,7 +184,8 @@ no-scroll {
 
 .partners > span {
   color: var(--grey);
-  font-size: var(--fs-500);
+  font-size: var(--fs-600);
+  font-weight: 600;
   padding: 5px;
   flex: 1;
 }
@@ -190,7 +195,6 @@ no-scroll {
 }
 .no-starch {
   font-family: var(--ff-ubuntu);
-  font-weight: 500;
 }
 
 .penguin {
@@ -235,15 +239,15 @@ footer > * {
 
   section,
   footer {
-    padding: 50px 120px 50px 120px;
+    padding: 50px 10% 50px 10%;
   }
 
   header > nav {
-    padding: 12px 120px 12px 120px;
+    padding: 12px 10% 12px 10%;
   }
 
   .socials-controls {
-    padding: 0 120px;
+    padding: 0 10%;
     display: flex;
     justify-content: flex-end;
     gap: 20px;
@@ -261,8 +265,8 @@ footer > * {
 
   .logo {
     display: block;
-    min-width: 150px;
-    max-width: 150px;
+    min-width: 200px;
+    max-width: 200px;
   }
 
   .burger-menu {
@@ -273,7 +277,7 @@ footer > * {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
   }
 
   .list-item {
