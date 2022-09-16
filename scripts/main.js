@@ -8,7 +8,8 @@ function removeMenu() {
   button.classList.remove('burger-menu-toggled');
   button.classList.remove('open');
   button.setAttribute('data-toggled', 'false');
-  body.classList.remove('overflow');
+  body.classList.remove('no-scroll');
+  console.log(body.classList.length);
 }
 
 button.addEventListener('click', () => {
