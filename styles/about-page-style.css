@@ -86,6 +86,14 @@ body {
     align-items: stretch;
   }
 
+  .past-event{
+    transition: all 0.4s ease-in-out;
+  }
+
+  .past-event:hover{
+    background-size: 120%;
+    background-position: center;
+  }
   .partner-section {
     display: none;
   }
