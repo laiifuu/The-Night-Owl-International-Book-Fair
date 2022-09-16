@@ -16,7 +16,7 @@ Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07
 
 ## Live Demo
 
-[Live Demo Link](https://laiifuu.github.io/My-Portfolio/)
+[Live Demo Link](https://laiifuu.github.io/The-Night-Owl-International-Book-Fair/index.html)
 
 ## Getting Started
 
