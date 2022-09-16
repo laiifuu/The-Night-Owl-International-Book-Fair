@@ -7,17 +7,17 @@ const body = document.querySelector("body");
 function removeMenu() {
   menu.classList.remove("toggled-menu");
   button.classList.remove("burger-menu-toggled");
-  img.setAttribute("src", "../images/burger-menu-icon.png");
+  img.setAttribute("src", "./images/burger-menu-icon.png");
   img.setAttribute("data-toggled", "false");
   body.classList.remove("overflow");
 }
 
 button.addEventListener("click", () => {
   if (img.getAttribute("data-toggled") === "false") {
-    img.src = "../images/x-icon.png";
+    img.src = "./images/x-icon.png";
     img.setAttribute("data-toggled", "true");
   } else {
-    img.src = "../images/burger-menu-icon.png";
+    img.src = "./images/burger-menu-icon.png";
     img.setAttribute("data-toggled", "false");
   }
   button.classList.toggle("burger-menu-toggled");
