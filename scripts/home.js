@@ -71,7 +71,7 @@ let authorsList = [
   
     authorInfo.append(authorName, genres, lineBreak, authorDesc)
     
-    author.append(authorPhoto, authorInfo); 
+    author.append(authorPhoto, authorInfo);
   
     return author;
   
@@ -82,7 +82,6 @@ let authorsList = [
     const card = createAuthorCard(authorsList[i]);
     if (i >= 2){
       card.setAttribute('data-hide', 'true');
-      console.log(window.screen.width);
       if(window.screen.width < 768){
         card.classList.add('hidden');
       }
