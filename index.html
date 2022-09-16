@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/08fd6ffb87aac63ca5d4a4da848f4b86?family=Wolpe+Pegasus" rel="stylesheet" type="text/css"/>
+    
+    <link rel="stylesheet" href="styles/main-style.css">
+    <link rel="stylesheet" href="styles/home-page-style.css" />
+    
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+
+    <title>The Night Owl Book Fair</title>
+  </head>
+
+  <body>
+    <header>
+      <ul class="socials-controls">
+        <li class="social-media">
+          <a href="#"><img src="./images/facebook.png" alt="" /></a>
+        </li>
+        <li class="social-media">
+          <a href="#"><img src="./images/twitter.png" alt="" /></a>
+        </li>
+        <li class="control"><a href="#">English</a></li>
+        <li class="control"><a href="#">My page</a></li>
+        <li class="control"><a href="#">Log out</a></li>
+      </ul>
+      <nav>
+        <a class="logo" href="index.html"
+          ><img src="./images/logo-black-bg.png" alt="logo"
+        /></a>
+        <button type="button" class="burger-menu" data-toggled="false">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </button>
+        <ul class="nav-list flex-container">
+          <li><a class="list-item" href="about.html">About</a></li>
+          <li><a class="list-item" href="#">Program</a></li>
+          <li><a class="list-item" href="#">Join</a></li>
+          <li><a class="list-item" href="#">Sponsor</a></li>
+          <li><a class="list-item" href="#">News</a></li>
+          <li><a class="list-item campaign-btn" href="">TNO Campaign</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="headline" class="headline-section">
+      <p class="headline-welcome">"Hello, Night Owls!"</p>
+      <h1>
+        <pre class="headline-title">
+The Night Owl
+Book Fair
+2022</pre
+        >
+      </h1>
+      <p class="description">
+        The 2022 edition of the nigt Owl's annual book fair as usual brings an
+        exhibit of hundreds of thousands of books for you to pick up !
+      </p>
+
+      <div>
+        <h2>
+          <time datetime="2022-03-13">13.03.2022(SUN)</time> ~
+          <time datetime="2022-03-18">18(FRI)</time>
+        </h2>
+        <p class="place">
+          @ Olympia Conference Centre, Hammersmith Road, Kensington, London W14
+          8UX, United Kingdom
+        </p>
+      </div>
+    </section>
+
+    <section id="program" class="program-section flex-container">
+      <h2>Main Program</h2>
+      <div class="line-break"></div>
+      <div class="activities flex-container">
+        <div class="flex-container activity">
+          <img class="activity-img" src="./images/stage.png" alt="" />
+          <h3 class="activity-title">Exhibition</h3>
+          <p class="activity-description">
+            Pick up your next reads from a display of hundreds of thousands of
+            books from different authors from all over the world.
+          </p>
+        </div>
+        <div class="flex-container activity">
+          <img class="activity-img" src="./images/lecture.png" alt="" />
+          <h3 class="activity-title">Lecture</h3>
+          <p class="activity-description">
+            Listen to your favourite authors talk about their craft and their
+            experiences as writers.
+          </p>
+        </div>
+        <div class="flex-container activity">
+          <img class="activity-img" src="./images/forum.png" alt="" />
+          <h3 class="activity-title">Q&A</h3>
+          <p class="activity-description">
+            Ask your favourite authors questions you've been dying to have
+            answered
+          </p>
+        </div>
+        <div class="flex-container activity">
+          <img class="activity-img" src="./images/ignite.png" alt="" />
+          <h3 class="activity-title">Book signing</h3>
+          <p class="activity-description">
+            Have your favourite book signed by your favourte author after
+            hearing their answers to your questions.
+          </p>
+        </div>
+        <div class="flex-container activity">
+          <img class="activity-img" src="./images/workshop.png" alt="" />
+          <h3 class="activity-title">Workshop</h3>
+          <p class="activity-description">
+            Join our creative writing workshop to learn the basics and ins and
+            outs of writing.
+          </p>
+        </div>
+      </div>
+      <button class="btn-primary" type="button">Join the Night Owl book fair 2022</button>
+      <a href="#" class="see-program">SEE THE WHOLE PROGRAM</a>
+    </section>
+
+    <section id="featured-authors" class="authors-section flex-container">
+      <h2>Featured Speakers</h2>
+      <div class="line-break"></div>
+      <div class="flex-container authors"></div>
+
+      <button type="button" class="flex-container see-more" data-toggled="false">
+        <span>MORE</span> <img src="./images/down-arrow-orange.png" alt="" />
+      </button>
+    </section>
+
+    <section class="flex-container partner-section">
+      <h2>Partner</h2>
+      <div class="line-break"></div>
+      <div class="flex-container partners">
+        <span class="no-starch">no starch press</span>
+        <span class="penguin">Penguin Publishing </span>
+        <span class="harper-collins">HarperCollins<i>Publishing</i></span>
+      </div>
+    </section>
+
+    <footer class="flex-container">
+      <div>
+        <img src="./images/logo-white-bg.png" alt="Logo" />
+      </div>
+      <p>2022 The Night Owl Book Fair London. Some Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
