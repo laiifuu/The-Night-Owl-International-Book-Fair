@@ -120,8 +120,7 @@ header {
 
 .burger-menu {
   width: 40px;
- /*  z-index: 10; /* i added both of these lines here
-  position: absolute; */
+  height: 30px;
 }
 
 .burger-menu-toggled {
@@ -143,8 +142,35 @@ header {
   left: 0;
   z-index: 0;
 } 
- 
-no-scroll {
+
+.line {
+  width: 40px;
+  height: 6px;
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.line1 {
+  transform: translateY(-6px) ;
+}
+
+.line3 {
+  transform: translateY(6px) ;
+}
+
+.open .line1 {
+  transform: translateY(6px) rotateZ(-45deg);
+}
+
+.open .line2 {
+  opacity: 0;
+}
+
+.open .line3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.no-scroll {
   overflow: hidden;
 }
 
