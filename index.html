@@ -18,9 +18,13 @@
       rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
     <link href="//db.onlinewebfonts.com/c/08fd6ffb87aac63ca5d4a4da848f4b86?family=Wolpe+Pegasus" rel="stylesheet" type="text/css"/>
+    
     <link rel="stylesheet" href="styles/main-style.css">
     <link rel="stylesheet" href="styles/home-page-style.css" />
-    <script src="main.js" defer></script>
+    
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+
     <title>The Night Owl Book Fair</title>
   </head>
 
@@ -74,7 +78,7 @@ Book Fair
           <time datetime="2022-03-13">13.03.2022(SUN)</time> ~
           <time datetime="2022-03-18">18(FRI)</time>
         </h2>
-        <p>
+        <p class="place">
           @ Olympia Conference Centre, Hammersmith Road, Kensington, London W14
           8UX, United Kingdom
         </p>
@@ -133,57 +137,10 @@ Book Fair
     <section id="featured-authors" class="authors-section flex-container">
       <h2>Featured Speakers</h2>
       <div class="line-break"></div>
-      <div class="flex-container authors">
-        <div class="flex-container author">
-          <div class="author-photo-container">
-            <img
-              class="author-photo"
-              src="images/Thomas-Harris.jpg"
-              alt="A photo of Thomas Harris"
-            />
-          </div>
-          <div class="flex-container author-description">
-            <h3>Thomas Harris</h3>
-            <p class="genre">Crime, Horror, Suspense</p>
-            <div class="line-break"></div>
-            <p>
-              He is an American author best known for a series of suspense
-              novels about his most famous character, Hannibal Lecter. The
-              majority of his works have been adapted into films and television,
-              the most notable being The Silence of the Lambs.
-            </p>
-          </div>
-        </div>
-        <div class="flex-container author">
-          <div class="author-photo-container">
-            <img
-              class="author-photo"
-              src="images/Stephen-King.jpg"
-              alt="A photo of Stephen King"
-            />
-          </div>
-          <div class="flex-container author-description">
-            <h3>Stephen King</h3>
-            <p class="genre">
-              Horror, Supernatural fiction, Suspense, Crime, Science-fiction,
-              Fantasy
-            </p>
-            <div class="line-break"></div>
-            <p>
-              Described as the King of Horror, he is an American author with 64
-              published novels which most of them were adapted into films and
-              series and over 200 short stories.
-            </p>
-          </div>
-        </div>
-        
-      
-       
-        
-      </div>
+      <div class="flex-container authors"></div>
 
-      <button class="flex-container see-more">
-        <span>MORE</span> <img src="images/down-arrow-orange.svg" alt="" />
+      <button class="flex-container see-more" data-toggled="false">
+        <span>MORE</span> <img src="images/down-arrow-orange.png" alt="" />
       </button>
     </section>
 
@@ -205,61 +162,3 @@ Book Fair
     </footer>
   </body>
 </html>
-
-<!--
-<div class="flex-container">
-  <img src="images/Elif-Shafak.jpg" alt="A photo of Elif Shafak" />
-  <h3>Elif Shafak</h3>
-  <p>Literary fiction</p>
-  <div>line break</div>
-  <p>
-    She is a turkish-british author who writes in both english and
-    turkish. Described by the Financial Times as "Turkey's leading female
-    novelist", she has 19
-  </p>
-</div>
-<div class="flex-container">
-  <img
-    src="images/Haruki-Murakami.jpg"
-    alt="A photo of Haruki Murakami"
-  />
-  <h3>Haruki Murakami</h3>
-  <p>
-    Fiction, Surrealism, Magical realism, Postmodernism, Bildungsroman,
-    Picaresque realism
-  </p>
-  <div>line break</div>
-  <p>
-    He is a Japaanese writer whose novels, essays, and short stories have
-    been bestsellers in Japan as well as internationally. With his work
-    translated into 50 languages, he has sold millions of copies outside
-    Japan.
-  </p>
-</div>
-<div class="flex-container">
-  <img src="images/Colleen-Hoover.jpg" alt="A photo of Colleen Hoover" />
-  <h3>Colleen Hoover</h3>
-  <p>Young adult fiction, New-adult fiction, Romance, Thriller</p>
-  <div>line break</div>
-  <p>
-    She is an American author best known for her 2016 romance novel It
-    Ends with Us. Many of her novels ended up being a New York times best
-    seller. Many of her works were self-published before being picked up
-    by a publishing house.
-  </p>
-</div>
-<div class="flex-container">
-  <img src="images/Salley-Rooney.jpg" alt="A photo of Salley Rooney" />
-  <h3>Salley Rooney</h3>
-  <p>job title</p>
-  <div>Fiction</div>
-  <p>
-    She is an Irish author and screenwriter. She has published three
-    novels. One of them titled "Normal People" was adapted into a 2020
-    television series. Her work has garnered critical acclaim and
-    commercial success, and she is regarded as one of the foremost
-    millennial writers.
-  </p>
-</div>
-
--->
