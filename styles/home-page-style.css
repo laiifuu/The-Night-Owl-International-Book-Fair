@@ -26,6 +26,11 @@ body {
   background-color: rgba(211, 211, 211, 0.1);
 }
 
+.activity:hover{
+  transform: translateY(-2px);
+  box-shadow:  0 0 8px 0 white;
+}
+
 .activity-img {
   width: 60px;
   height: 60px;
