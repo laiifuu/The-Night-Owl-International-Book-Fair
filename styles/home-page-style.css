@@ -21,6 +21,7 @@ body {
   width: 100%;
   padding: 10px;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   background-color: rgba(211, 211, 211, 0.1);
 }
@@ -160,6 +161,7 @@ body {
 
   .activity {
     flex-direction: column;
+    text-align:center;
     width: 200px;
   }
 
