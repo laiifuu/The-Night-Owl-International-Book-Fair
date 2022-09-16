@@ -309,6 +309,11 @@ footer > * {
   .list-item {
     font-weight: 600;
     color: var(--black);
+    transition: 0.3s ease-in-out;
+  }
+
+  .list-item:hover{
+    color:var(--orange);
   }
 
   .campaign-btn {
